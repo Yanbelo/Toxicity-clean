@@ -294,7 +294,7 @@ def evaluate_if_labels(df_pred: pd.DataFrame, prob_list: list[np.ndarray], y_bin
 # ------------------------
 # UI
 # ------------------------
-st.title("🧪 Environmental Structural Alerts — Predictor")
+st.title("🧪 Toxicology Structural Alerts — Predictor")
 
 with st.sidebar:
     st.header("1) Load your saved model")
