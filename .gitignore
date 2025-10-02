@@ -1,0 +1,38 @@
+# Python/build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter/Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Large artifacts (keep out of normal Git)
+*.csv
+*.xlsx
+*.zip
+*.7z
+*.rar
+
+# If you DO want to track some CSV/XLSX, remove those lines above.
+
+# Executables / installers
+*.exe
+*.msi
+
+# Logs
+*.log
