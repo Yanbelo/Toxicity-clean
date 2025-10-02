@@ -1,9 +1,10 @@
 # requirements.txt
 # Pinned to a stable, widely compatible set
 streamlit==1.36.0
+rdkit-pypi==2022.9.5
+scikit-learn==1.3.2
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.4.2
 openpyxl==3.1.5
-rdkit-pypi==2022.9.5
+joblib>=1.3
 
